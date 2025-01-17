@@ -1,0 +1,58 @@
+<!-- app.component.html -->
+<div class="app-container">
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Top bar -->
+      <div class="top-bar">
+        <h1>Dashboard</h1>
+        <div class="user-profile">
+          <img src="profile.png" alt="User" class="profile-img" />
+          <span>Welcome, User!</span>
+          <!-- Logout Button -->
+          <button (click)="logout()">Logout</button>
+        </div>
+      </div>
+  
+      <!-- Dashboard Cards -->
+      <div class="cards">
+        <div class="card">
+          <h3>Total Sales</h3>
+          <p>$23,000</p>
+        </div>
+        <div class="card">
+          <h3>Total Users</h3>
+          <p>1,234</p>
+        </div>
+        <div class="card">
+          <h3>New Messages</h3>
+          <p>50</p>
+        </div>
+      </div>
+  
+      <!-- Sample Table -->
+      <div class="data-table">
+        <table>
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Email</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>john.example.com</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>jane.example.com</td>
+              <td>Inactive</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
